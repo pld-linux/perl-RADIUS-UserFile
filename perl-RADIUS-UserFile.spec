@@ -14,7 +14,7 @@ BuildRequires:	perl-Tie-IxHash
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
 Requires:	%{perl_sitearch}
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 RADIUS-UserFile - module for manipulating a RADIUS users file. 
