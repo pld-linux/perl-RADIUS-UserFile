@@ -32,11 +32,11 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/usr/src/%{name}-%{version}
+install -d $RPM_BUILD_ROOT/usr/src/examples/%{name}-%{version}
 
 make install DESTDIR=$RPM_BUILD_ROOT
 
-install examples/* $RPM_BUILD_ROOT/usr/src/%{name}-%{version}
+install examples/* $RPM_BUILD_ROOT/usr/src/examples/%{name}-%{version}
 
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/RADIUS/UserFile
@@ -59,4 +59,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_mandir}/man3/*
 
-/usr/src/%{name}-%{version}
+/usr/src/examples/%{name}-%{version}
