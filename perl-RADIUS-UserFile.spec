@@ -16,7 +16,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e3fd8852d4440aa950098a28f6b788fc
 Patch0:		%{name}-paths.patch
-BuildRequires:	perl-devel >= 5.6
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Tie-IxHash
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
