@@ -9,7 +9,7 @@ Summary:	RADIUS::UserFile perl module
 Summary(pl):	Modu³ perla RADIUS::UserFile
 Name:		perl-RADIUS-UserFile
 Version:	1.01
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
