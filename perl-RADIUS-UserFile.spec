@@ -4,8 +4,8 @@
 Summary:	RADIUS::UserFile perl module
 Summary(pl):	Modu³ perla RADIUS::UserFile
 Name:		perl-RADIUS-UserFile
-Version:	0.99
-Release:	5
+Version:	1.01
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
