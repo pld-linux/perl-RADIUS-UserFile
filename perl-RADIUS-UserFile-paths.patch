@@ -1,0 +1,32 @@
+--- examples.paths/radius-add	Tue Sep 29 04:07:20 1998
++++ examples/radius-add	Mon Oct 18 00:30:33 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -Tw
++#!/usr/bin/perl -Tw
+ 
+ use 5.004;
+ use strict;
+--- examples.paths/radius-del	Tue Sep 29 04:07:20 1998
++++ examples/radius-del	Mon Oct 18 00:30:46 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -Tw
++#!/usr/bin/perl -Tw
+ 
+ use 5.004;
+ use strict;
+--- examples.paths/radius-edit	Wed Sep 30 00:59:51 1998
++++ examples/radius-edit	Mon Oct 18 00:30:57 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -Tw
++#!/usr/bin/perl -Tw
+ 
+ =head1 NAME
+ 
+--- examples.paths/radius-user	Wed Sep 30 00:59:52 1998
++++ examples/radius-user	Mon Oct 18 00:31:04 1999
+@@ -1,4 +1,4 @@
+-#!/usr/local/bin/perl -Tw
++#!/usr/bin/perl -Tw
+ 
+ =head1 NAME
+ 
