@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla RADIUS-UserFile
 Name:		perl-RADIUS-UserFile
 Version:	0.98
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/RADIUS/RADIUS-UserFile-%{version}.tar.gz
-Patch:		perl-RADIUS-UserFile-paths.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/RADIUS/RADIUS-UserFile-%{version}.tar.gz
+Patch0:		perl-RADIUS-UserFile-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl-Tie-IxHash
 BuildRequires:	perl >= 5.005_03-14
@@ -17,10 +17,11 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-RADIUS-UserFile - module for manipulating a RADIUS users file. 
+RADIUS-UserFile - module for manipulating a RADIUS users file.
 
 %description -l pl
-RADIUS-UserFile - modu³ do operowania na bazie danych u¿ytkowników RADIUSa.
+RADIUS-UserFile - modu³ do operowania na bazie danych u¿ytkowników
+RADIUSa.
 
 %prep
 %setup -q -n RADIUS-UserFile-%{version}
@@ -32,11 +33,11 @@ make
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/usr/src/examples/%{name}-%{version}
+install -d $RPM_BUILD_ROOT%{_prefix}/src/examples/%{name}-%{version}
 
 make install DESTDIR=$RPM_BUILD_ROOT
 
-install examples/* $RPM_BUILD_ROOT/usr/src/examples/%{name}-%{version}
+install examples/* $RPM_BUILD_ROOT%{_prefix}/src/examples/%{name}-%{version}
 
 (
   cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/RADIUS/UserFile
@@ -59,4 +60,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %{_mandir}/man3/*
 
-/usr/src/examples/%{name}-%{version}
+%{_prefix}/src/examples/%{name}-%{version}
