@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	RADIUS
-%define	pnam	UserFile
+%define		pdir	RADIUS
+%define		pnam	UserFile
 Summary:	RADIUS::UserFile perl module
 Summary(pl):	Modu³ perla RADIUS::UserFile
 Name:		perl-RADIUS-UserFile
