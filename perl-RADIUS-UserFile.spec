@@ -3,7 +3,7 @@ Summary:	RADIUS-UserFile perl module
 Summary(pl):	Modu³ perla RADIUS-UserFile
 Name:		perl-RADIUS-UserFile
 Version:	0.99
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -13,6 +13,7 @@ Patch0:		%{name}-paths.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl-Tie-IxHash
 BuildRequires:	perl >= 5.6
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
