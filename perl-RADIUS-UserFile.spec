@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	RADIUS
 %define	pnam	UserFile
-Summary:	RADIUS-UserFile perl module
-Summary(pl):	Modu³ perla RADIUS-UserFile
+Summary:	RADIUS::UserFile perl module
+Summary(pl):	Modu³ perla RADIUS::UserFile
 Name:		perl-RADIUS-UserFile
 Version:	0.99
 Release:	5
@@ -17,10 +17,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-RADIUS-UserFile - module for manipulating a RADIUS users file.
+RADIUS::UserFile - module for manipulating a RADIUS users file.
 
 %description -l pl
-RADIUS-UserFile - modu³ do operowania na bazie danych u¿ytkowników
+RADIUS::UserFile - modu³ do operowania na bazie danych u¿ytkowników
 RADIUSa.
 
 %prep
