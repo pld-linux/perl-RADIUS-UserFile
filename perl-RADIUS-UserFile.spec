@@ -6,7 +6,7 @@
 %define		pdir	RADIUS
 %define		pnam	UserFile
 Summary:	RADIUS::UserFile perl module
-Summary(pl.UTF-8):   Moduł perla RADIUS::UserFile
+Summary(pl.UTF-8):	Moduł perla RADIUS::UserFile
 Name:		perl-RADIUS-UserFile
 Version:	1.01
 Release:	3
